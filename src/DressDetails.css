@@ -1,0 +1,204 @@
+.dress-details {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.colored-container {
+  width: 50%;
+  height: 1000px;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+}
+
+.details-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-title {
+  position: absolute;
+  margin-top: -30px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.product-price {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-descrip {
+  position: absolute;
+  font-size: 15px;
+  margin-top: -13px;
+  font-weight: normal;
+}
+
+.rating-section {
+  margin: 10px 0;
+}
+
+.rating-section p {
+  position: absolute;
+  margin-top: 80px;
+}
+.rating-stars {
+  position: absolute;
+  margin-top: 100px;
+  align-items: center;
+  gap: 5px;
+}
+.rating-value {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.feedback {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  right: 600px;
+  margin-top: 105px;
+  color: black;
+  border: solid 2px;
+  border-radius: 20px;
+}
+
+
+.color-section {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.color-section p {
+  position: absolute;
+  margin-top: 50px;
+}
+.color-circle {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid transparent;
+  overflow: hidden  ;
+  margin-right: 10px;
+  margin-top: 100px;
+  gap: 10px;
+}
+
+.color-circle.blue {
+  background-color: blue;
+}
+.color-circle.green {
+  background-color: green;
+}
+.color-circle.pink {
+  background-color: pink;
+}
+
+.color-circle.selected {
+  border: 2px solid black;
+}
+
+.size-section {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.quantity-section {
+  position: absolute;
+  margin-top: 400px;
+}
+.size-options {
+  display: flex;
+  gap: 30px;
+}
+
+.size-btn {
+  padding: 15px 35px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.size-btn.selected {
+  background: black;
+  color: white;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-selector button {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
+
+.button-section {
+  display: flex;
+  gap: 10px;
+  margin: 300px 0;
+}
+
+.add-to-cart,
+.buy-now {
+  padding: 18px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 180px;
+}
+
+.add-to-cart {
+  width: 300px;
+  position: absolute;
+  margin-top: 180px;
+  background: white;
+  border: 2px solid black;
+}
+
+.buy-now {
+  width: 300px;
+  position: absolute;
+  margin-left: 350px;
+  background: black;
+  color: white;
+}
+
+.description-section,
+.shipping-section,
+.details-section {
+  margin-top: 20px;
+}
+
+h3 {
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+h4 {
+  position: absolute;
+  margin-top: 55px;
+  color: blue;
+}

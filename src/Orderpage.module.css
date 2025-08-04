@@ -1,0 +1,62 @@
+.confirmationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f8f9fa;
+}
+
+.confirmationCard {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.checkIcon {
+  font-size: 40px;
+  color: hotpink;
+  background: #ffe6f0;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmationCard h3 {
+  margin: 0;
+  color: #333;
+}
+
+.confirmationCard h2 {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #111;
+}
+
+.confirmationCard p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.confirmationCard button {
+  background-color: hotpink;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirmationCard button:hover {
+  background-color: deeppink;
+}

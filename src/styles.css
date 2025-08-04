@@ -1,0 +1,89 @@
+/* Ensure global styles don't break other pages */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* LOGIN PAGE ONLY: Use a unique wrapper */
+.login-container {
+  display: flex;
+  height: 100vh; /* Full screen height */
+  width: 100%;
+  overflow: hidden; /* Stops scrolling only in login */
+}
+
+/* Left Section: Image */
+.login-container .image-section {
+  flex: 1;
+  background-image: url("../src/assets/Login_page.jpg") ;
+  background-size: cover;
+  margin-top:   0px;
+  width: 50%;
+  height: 165%;
+}
+
+/* Right Section: Login Box */
+.login-container .login-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+}
+
+/* Form Styles */
+.login-container form {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #333;
+}
+
+/* Sign Up Link */
+.login-container p {
+  margin-top: 20px;
+}
+
+.login-container p a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container p a:hover {
+  text-decoration: underline;
+}

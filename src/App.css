@@ -1,0 +1,141 @@
+/* General Page Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  width: 1950px;
+  height: 1000px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left Side - Image Section */
+.img {
+  display: flex;
+  width: 50%;
+  height: 165%;
+  background-size: cover;
+  background: url("../src/assets/Login_page.jpg") no-repeat center center/cover;
+}
+
+/* Right Side - Login Section */
+.login-box {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 850px;
+  font-family: cursive;
+}
+
+h2 {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 600px;
+}
+
+h3 {
+  position: relative;
+  font-size: 15px;
+  color: gray;
+  margin-top: 30px;
+}
+
+/* Login Form */
+#login-form {
+  width: 90%;
+}
+
+.remember-me {
+  margin-top: 20px;  /* Moves it below other elements */
+  display: flex;
+  margin-right: 700px;
+  align-items: center; /* Aligns checkbox and text */
+  gap: 5px; /* Adds spacing between checkbox and text */
+  white-space: nowrap;
+  margin-top: -35px;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+/* Remember Me & Forgot Password */
+.options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 650px;
+}
+
+
+
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #ccc;
+  gap: 5px;
+}
+
+
+/* Signup Text */
+.signup-text {
+  position: relative;
+  top: 270px;
+  font-size: 16px;
+}
+
+.signup-text a {
+  color: blue;
+  text-decoration: none;
+}
